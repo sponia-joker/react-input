@@ -1,13 +1,13 @@
 {
   "name": "joker-react-input",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "react components",
   "main": "build/index.js",
   "scripts": {
     "build": "babel lib -d build",
     "lint": "eslint lib/**; exit 0",
     "lint:watch": "esw -w lib/**",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
