@@ -2,7 +2,7 @@
   "name": "react-input",
   "version": "0.1.0",
   "description": "react components",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "babel lib -d build",
     "lint": "eslint lib/**; exit 0",
